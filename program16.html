@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haneena| Portfolio</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<nav>
+    <h2>haneena sidhiq</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>haneena</h1>
+        <p>Creative Web Designer & Student</p>
+        <div class="hero-buttons">
+            <a href="#" class="btn">Resume</a>
+            <a href="#projects" class="btn outline">Portfolio</a>
+        </div>
+    </div>
+    <div class="hero-image">
+        <img src="new.jpeg" alt="haneena">
+    </div>
+</section>
+<section id="ABOUT" class="py-5">
+  <div class="container">
+    <h2 class="section-title card p-3 ">ABOUT
+    <div class="row g-4 mt-3"></section>
+        <p>
+        I have basic knowledge in my field and a strong willingness to develop new skills. 
+        I am hardworking, responsible, and ready to contribute positively to a team.
+        </p>
+    </div>
+<section id="skills">
+    <h2 class="section-title card p-3 ">Skills</h2>
+    <div class="skills">
+        <div class="skill">
+            <div class="skill-name">Web Design</div>
+            <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Graphic Design</div>
+            <div class="skill-bar"><div class="skill-level" style="width:80%"></div></div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar"><div class="skill-level" style="width:90%"></div></div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar"><div class="skill-level" style="width:70%"></div></div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <h2 class="section-title card p-3 ">Contact Me</h2>
+    <div class="contact">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button>Send Message</button>
+    </div>
+</section>
+<footer>
+    © 2026 Haneena Sidhiq | All Rights Reserved
+</footer>
+<button id="topBtn" onclick="topFunction()">↑</button>
+<script>
+let topBtn = document.getElementById("topBtn");
+window.onscroll = function() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        topBtn.style.display = "block";
+    } else {
+        topBtn.style.display = "none";
+    }
+};
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
